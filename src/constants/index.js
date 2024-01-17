@@ -14,12 +14,12 @@ export const navLinks = [
     title: "Rules",
   },
   {
-    id: "workshops",
-    title: "Workshops",
+    id: "announcements",
+    title: "Announcements",
   },
   {
-    id: "activeContests",
-    title: "Active Contests"
+    id: "contests",
+    title: "Contests"
   },
   {
     id: "prizes",
@@ -33,6 +33,7 @@ export const navLinks = [
     id: "contact",
     title: "Contact Us",
   },
+  
 ];
 
 export const features = [

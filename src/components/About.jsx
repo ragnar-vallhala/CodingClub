@@ -5,7 +5,7 @@ import {date, location, problem} from "../assets"
 const About = () =>{
   const aboutData = [
     { imageSrc: date, heading:'Date' ,text: '10th of Feb 2024' },
-    { imageSrc: location,heading:'Location' ,text: 'Indian Institute of Technology, Jammu' },
+   
     { imageSrc: problem,heading:'Problem Statement' ,text: 'Real World' }
   ];
 
