@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[102px] text-[64px] text-white ss:leading-[100.8px] leading-[75px] text-center">
             Fill <br className="sm:block hidden" /> the <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Void</span>{" "}
+            <span className="text-gradient">Void()</span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
