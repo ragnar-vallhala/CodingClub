@@ -58,6 +58,13 @@ export const features = [
     content:
       "A balance transfer credit card can save you a lot of money in interest charges.",
   },
+  {
+    id: "feature-4",
+    icon: send,
+    title: "Balance Transfer",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
 ];
 
 export const feedback = [
@@ -107,15 +114,15 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Contact Us",
     links: [
       {
         name: "Mail Us at codingclub@iitjammu.ac.in",
-        link: "codingclub@iitjammu.ac.in",
+        link: "mailto:codingclub@iitjammu.ac.in",
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        name: "Sponsor our Events",
+        link: "https://forms.gle/cRipJXgsnU86Wgy4A",
       },
       {
         name: "Suggestions",
