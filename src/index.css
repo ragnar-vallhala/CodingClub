@@ -139,3 +139,34 @@
   filter: blur(750px);
 }
 
+.pady {
+  padding-top: 80px;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.scrolling-lines {
+  height: 400px; 
+  overflow: hidden;
+  border: 1px solid #38bbe3; 
+}
+
+.line {
+  line-height: 60px; /* Set the line height */
+  animation: scroll 5s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
