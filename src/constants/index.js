@@ -40,31 +40,25 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "₹15,000",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Amazon Voucher",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "₹10,000",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Amazon Voucher",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "₹5,000",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Amazon Voucher",
   },
-  {
-    id: "feature-4",
-    icon: send,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
-  },
+ 
 ];
 
 export const feedback = [

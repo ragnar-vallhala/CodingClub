@@ -8,7 +8,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
       <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
     </div>
     <div className="flex-1 flex flex-col ml-3">
-      <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23.4px] mb-1">
+      <h4 className="font-poppins font-semibold text-white text-[52px] leading-[23.4px] mb-5">
         {title}
       </h4>
       <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px]">
@@ -18,17 +18,18 @@ const FeatureCard = ({ icon, title, content, index }) => (
   </div>
 );
 
+
 const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        You do the business, <br className="sm:block hidden" /> we’ll handle
-        the money.
+        Get an oppurtunity <br className="sm:block hidden" /> to win exciting prizes.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by
-        building credit, earning rewards and saving money. But with hundreds
-        of credit cards on the market.
+      Compete for top honors in our hackathon and stand a chance to win 
+      exclusive prizes! The top three performers get Amazon vouchers, 
+      and Course Vouchers await teams in 4th to 10th place. Join Fill the Void() 
+      for a chance to be recognized and rewarded for your coding prowess!
       </p>
 
       <Button styles={`mt-10`} />

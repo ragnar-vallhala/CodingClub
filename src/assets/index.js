@@ -28,8 +28,15 @@ import location from './location.png'
 import problem from './problem.png'
 import download from './download.png'
 import arrow from './listArrow.png'
+import one from './1.png'
+import two from './2.png'
+import three from './3.png'
+
 
 export {
+  three,
+  two,
+  one,
   arrow,
   download,
   date,

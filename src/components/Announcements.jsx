@@ -4,7 +4,7 @@ import styles from '../style';
 
 const Announcements = () => {
   return (
-    <section className='flex-row flex-wrap sm:mt-20 mt-6 text-white'>
+    <section id='announcements'className='flex-row flex-wrap sm:mt-20 mt-6 text-white'>
         <div>
             <p className={`${styles.heading2}`}>
                 Announcements
