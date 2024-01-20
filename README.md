@@ -1,13 +1,13 @@
 # CodingClub Website Deployment Guide
 
-This guide explains the steps to update and deploy the CodingClub website on your Hostinger VPS.
+Steps to update and deploy the CodingClub website on Hostinger VPS.
 
 ## Deployment Steps
 
-1. SSH into your Hostinger VPS:
+1. SSH into Hostinger VPS:
 
     ```bash
-    ssh root@your_vps_ip
+    ssh root@vps_ip
     ```
 
     Replace `vps_ip` with  VPS IP address.
