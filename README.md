@@ -1,48 +1,35 @@
-## Updating the Project
+# CodingClub Website Deployment Guide
 
-To update the project, follow these steps:
+This guide explains the steps to update and deploy the CodingClub website on your Hostinger VPS.
 
-1. Navigate to the project directory:
+## Deployment Steps
 
-   ```bash
-   cd CodingClub
-   ```
+1. SSH into your Hostinger VPS:
 
-2. Pull the latest changes from the Git repository:
+    ```bash
+    ssh root@your_vps_ip
+    ```
 
-   ```bash
-   git pull
-   ```
+    Replace `vps_ip` with  VPS IP address.
 
-## Building the Project
+2. Navigate to the CodingClub directory:
 
-To build the project, use the following commands:
+    ```bash
+    cd CodingClub
+    ```
 
-1. Install project dependencies (assuming you're using `pnpm`):
+3. Pull the latest changes from the Git repository:
 
-   ```bash
-   pnpm install
-   ```
+    ```bash
+    git pull
+    ```
 
-2. Build the project:
+4. Build the project:
 
-   ```bash
-   pnpm build
-   ```
+    ```bash
+    pnpm build
+    ```
 
-## Previewing the Project Locally
 
-To preview the project locally, use the following commands:
 
-1. Start the local preview:
 
-   ```bash
-   pnpm preview --host
-   ```
-
-   This will host the project locally and provide you with a local URL.
-
-Feel free to customize this README file with additional information, details, or specific configurations related to your project. Ensure to update the commands and descriptions to match your project's structure and requirements.
-```
-
-This is a basic template, and you can enhance it based on the specifics of your project. Markdown is widely used for creating README files on GitHub, and it allows you to add formatting, links, and images to make your documentation more readable and informative.
