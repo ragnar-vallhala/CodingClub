@@ -6,15 +6,15 @@ const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Find a better card deal <br className="sm:block hidden" /> in few easy
-        steps.
+        Riding the wave of <br className="sm:block hidden" /> AI-ML Innovation
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+        Embark on a transformative exploration of Artificial Intelligence and
+        Machine Learning at Coding Club IIT Jammu, where algorithms unfold the
+        future, and innovation is sculpted by the intelligence of code.
       </p>
 
-      <Button styles={`mt-10`} />
+      
     </div>
 
     <div className={layout.sectionImg}>

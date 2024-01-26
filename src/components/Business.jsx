@@ -20,7 +20,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 
 const Business = () =>  (
-  <section id="features" className={layout.section}>
+  <section id="prizes" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         Get an oppurtunity <br className="sm:block hidden" /> to win exciting prizes.

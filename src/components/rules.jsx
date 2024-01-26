@@ -16,7 +16,7 @@ const DownloadButton = ({ fileName }) => {
 
   return (
     <button onClick={handleDownload}>
-       <p className="font-poppins text-blue-500 text-[16px] leading-[23.4px] text-right">
+       <p className="font-poppins text-blue-500 text-[16px] leading-[23.4px] text-right ">
           Download the Full Rule-Book Here
         </p>
     </button>

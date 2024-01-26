@@ -18,10 +18,10 @@ const Hero = () => {
         </div>
 
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          <i>
-            "Embark on a coding adventure at our hackathon where challenges blend AI, Machine Learning, and Competitive Programming.
-            Unleash your problem-solving prowess in the realm of algorithms and artificial intelligence to craft innovative solutions."
-          </i>
+          
+            Embark on a coding adventure at our hackathon where challenges blend AI, Machine Learning, and Competitive Programming.
+            Unleash your problem-solving prowess in the realm of algorithms and artificial intelligence to craft innovative solutions.
+          
         </p>
       </div>
 
