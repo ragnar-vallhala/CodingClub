@@ -11,20 +11,21 @@ const Announcements = () => {
             </p>
         </div>
         <div className="scrolling-lines text-white text-32px">
-        <div className="line">Announcement 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-        <div className="line">Announcement 2: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-        <div className="line">Announcement 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-        <div className="line">Announcement 2: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-        <div className="line">Announcement 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-        <div className="line">Announcement 2: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-        <div className="line">Announcement 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-        <div className="line">Announcement 2: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-        <div className="line">Announcement 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-        <div className="line">Announcement 2: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-        <div className="line">Announcement 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-        <div className="line">Announcement 2: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-        <div className="line">Announcement 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-        <div className="line">Announcement 2: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+        <div className="line"> Registrations open till 8th Feb. </div>
+        <div className="line"> Participate in a hackathon promising a unique blend of CP and AI-Ml. </div>
+        <div className="line"> Prizes worth 60k up for grabs. </div>
+        <div className="line"> Registrations open till 8th Feb. </div>
+        <div className="line"> Participate in a hackathon promising a unique blend of CP and AI-Ml. </div>
+        <div className="line"> Prizes worth 60k up for grabs. </div>
+        <div className="line"> Registrations open till 8th Feb. </div>
+        <div className="line"> Participate in a hackathon promising a unique blend of CP and AI-Ml. </div>
+        <div className="line"> Prizes worth 60k up for grabs. </div>
+        <div className="line"> Registrations open till 8th Feb. </div>
+        <div className="line"> Participate in a hackathon promising a unique blend of CP and AI-Ml. </div>
+        <div className="line"> Prizes worth 60k up for grabs. </div>
+        <div className="line"> Registrations open till 8th Feb. </div>
+        <div className="line"> Participate in a hackathon promising a unique blend of CP and AI-Ml. </div>
+       
         
         </div>
     </section>
