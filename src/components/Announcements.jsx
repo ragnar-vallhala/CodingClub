@@ -10,24 +10,14 @@ const Announcements = () => {
                 Announcements
             </p>
         </div>
-        <div className="scrolling-lines text-white text-32px">
-        <div className="line"> Registrations open till 8th Feb. </div>
-        <div className="line"> Participate in a hackathon promising a unique blend of CP and AI-Ml. </div>
-        <div className="line"> Prizes worth 60k up for grabs. </div>
-        <div className="line"> Registrations open till 8th Feb. </div>
-        <div className="line"> Participate in a hackathon promising a unique blend of CP and AI-Ml. </div>
-        <div className="line"> Prizes worth 60k up for grabs. </div>
-        <div className="line"> Registrations open till 8th Feb. </div>
-        <div className="line"> Participate in a hackathon promising a unique blend of CP and AI-Ml. </div>
-        <div className="line"> Prizes worth 60k up for grabs. </div>
-        <div className="line"> Registrations open till 8th Feb. </div>
-        <div className="line"> Participate in a hackathon promising a unique blend of CP and AI-Ml. </div>
-        <div className="line"> Prizes worth 60k up for grabs. </div>
-        <div className="line"> Registrations open till 8th Feb. </div>
-        <div className="line"> Participate in a hackathon promising a unique blend of CP and AI-Ml. </div>
-       
         
-        </div>
+          <div className="scrolling-lines text-white text-32px">
+            <div className='scroll-box'>
+              <div className="line"> Registrations open till 8th Feb. </div>
+              <div className="line"> Participate in a hackathon promising a unique blend of CP and AI-Ml. </div>
+              <div className="line"> Prizes worth 60k up for grabs. </div>
+            </div>       
+          </div>
     </section>
   );
 };

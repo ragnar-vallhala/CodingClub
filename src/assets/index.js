@@ -35,10 +35,12 @@ import sponsor1 from './sponsor1.png'
 import sponsor2 from './sponsor2.png'
 import sponsor3 from './sponsor3.png'
 import sponsor4 from './sponsor4.png'
+import merch from "./merch.png"
 
 
 
 export {
+  merch,
   three,
   two,
   one,

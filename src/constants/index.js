@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star ,sponsor1 ,sponsor2,sponsor3,sponsor4 } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star ,sponsor1 ,sponsor2,sponsor3,sponsor4, one, two, three } from "../assets";
 
 export const navLinks = [
   {
@@ -48,21 +48,21 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
+    icon: one,
     title: "₹15,000",
     content:
       "Amazon Voucher",
   },
   {
     id: "feature-2",
-    icon: star,
+    icon: two,
     title: "₹10,000",
     content:
       "Amazon Voucher",
   },
   {
     id: "feature-3",
-    icon: star,
+    icon: three,
     title: "₹5,000",
     content:
       "Amazon Voucher",

@@ -1,7 +1,7 @@
 import { feedback } from "../constants";
 import styles from "../style";
 import FeedbackCard from "./FeedbackCard";
-
+import { merch } from "../assets";
 const Testimonials = () => (
   <><section id="Merchandise" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}>
     <div className="absolute z-[0] w-[60%] h-[30%] -right-[50%] rounded-full blue__gradient bottom-40" />
@@ -16,9 +16,13 @@ const Testimonials = () => (
         </p>
       </div>
     </div>
-
-    <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
-      <p className={styles.paragraph}> Coming soon</p>
+    <img
+      src={merch}
+      alt="merch"
+      className="h-48"
+      />
+    <div className="flex flex-wrap sm:justify-center justify-center w-full feedback-container relative z-[1]">
+      <p className={`${styles.paragraph}`}> Coming soon</p>
     </div>
   </section>
   <section id="clients" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}>
