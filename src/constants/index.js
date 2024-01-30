@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star ,sponsor1 ,sponsor2,sponsor3,sponsor4, one, two, three } from "../assets";
+import { people01, people02, people03,people04, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star ,sponsor1 ,sponsor2,sponsor3,sponsor4, one, two, three } from "../assets";
 
 export const navLinks = [
   {
@@ -87,14 +87,22 @@ export const feedback = [
     title: "Coordinator",
     img: people02,
   },
-  // {
-  //   id: "feedback-3",
-  //   content:
-  //     "It is usually people in the money business, finance, and international trade that are really rich.",
-  //   name: "Kenn Gallagher",
-  //   title: "Founder & Leader",
-  //   img: people03,
-  // },
+  {
+    id: "feedback-3",
+    content:
+      "I welcome you to a coding adventure where the possibilities of artificial intelligence and machine learning unfold. Let's embark on a journey of innovation together!",
+    name: "Ashutosh Vishwakarma",
+    title: "AI-ML Department Head",
+    img: people03,
+  },
+  {
+    id: "feedback-4",
+    content:
+      "Join the Competitive Programming journey with us—where challenges meet creativity, and coding becomes an art!",
+    name: "Satvik Jain",
+    title: "Competitive Programming Department Head",
+    img: people04,
+  },
 ];
 
 export const stats = [

@@ -22,7 +22,8 @@ import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import people01 from "./people01.jpeg";
 import people02 from "./people02.jpeg";
-import people03 from "./people03.png";
+import people03 from "./people03.jpg";
+import people04 from "./people04.jpg";
 import date from "./date.png"
 import location from './location.png'
 import problem from './problem.png'
@@ -74,6 +75,7 @@ export {
   people01,
   people02,
   people03,
+  people04,
   sponsor1,
   sponsor2,
   sponsor3,

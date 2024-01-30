@@ -45,6 +45,10 @@ const Footer = () => (
         <a href="https://github.com/ragnar-vallhala" className="text-blue-500">
           Developer's Github Profile
         </a>
+        <br/>
+        <a href="mailto:ashutoshvishwakarma208@gmail.com" className="text-blue-500">
+          Mail
+        </a>
       </p>
 
       <div className="flex flex-row md:mt-0 mt-6">

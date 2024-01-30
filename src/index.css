@@ -159,17 +159,20 @@
 }
 
 .scroll-box{
-  animation: scroll 5s linear infinite; 
+  animation: scroll 10s linear infinite; 
 }
 
 .line {
-  line-height: 60px; /* Set the line height */
+  line-height: 120px; /* Set the line height */
   margin-left: 20px;
 }
 
 @keyframes scroll {
-
   100% {
     transform: translateY(-100%);
   }
+}
+
+.font-big{
+  font-size: 32px;
 }
