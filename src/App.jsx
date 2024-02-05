@@ -1,38 +1,19 @@
-import styles from "./style";
-import {Announcements, Rules, Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, About, Testimonials, Hero } from "./components";
-
+import {Home, Event} from "./components";
+import { Routes, Route } from "react-router-dom";
 
 const App = () => (
-  <div className="bg-primary w-full overflow-hidden">\
-
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Navbar />
-      </div>
-    </div>
-
-    <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Hero />
-      </div>
-    </div>
-    
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <About />
-        <Rules />
-        <Announcements />
-        <Business />
-        <Billing />
-        <CardDeal />
-        <Testimonials />
-        <CTA />
-        <Clients />
-        
-        <Footer />
-      </div>
-    </div>
+  <div>
+      <Routes>
+      <Route path='/' element={<Home/>}></Route>
+      <Route path='/Events' element={<Event/>}></Route>
+      <Route path='/*' element={(
+        <div>
+          404 Not Found
+        </div>
+      )}></Route>
+    </Routes>
   </div>
+    
 );
 
 export default App;

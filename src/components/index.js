@@ -10,8 +10,12 @@ import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import Rules from "./rules"
 import Announcements from "./Announcements";
+import Home from "./Home";
+import Event from "./Event";
 
 export {
+  Event,
+  Home,
   Rules,
   Navbar,
   Billing,

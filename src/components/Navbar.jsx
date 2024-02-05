@@ -21,7 +21,7 @@ const Navbar = () => {
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-8"}`}
             onClick={() => setActive(nav.title)}
           >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            {(nav.title!='Events')?(<a href={`/#${nav.id}`}>{nav.title}</a>):(<a href={`/${nav.id}`}>{nav.title}</a>)}
           </li>
         ))}
       </ul>

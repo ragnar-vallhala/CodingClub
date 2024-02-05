@@ -82,7 +82,7 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "Join the coding revolution - where challenges meet creativity, and programming becomes an art.",
+      "I welcome you to a coding revolution where challenges meet creativity, and programming becomes an artistry of innovation and problem-solving. Together, let's pioneer the future of technology through boundless exploration and relentless pursuit of excellence.",
     name: "Purvanshi Nijhawan",
     title: "Coordinator",
     img: people02,
@@ -90,7 +90,7 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "I welcome you to a coding adventure where the possibilities of artificial intelligence and machine learning unfold. Let's embark on a journey of innovation together!",
+      "Welcome to the nexus of intelligence and creativity at our AI-ML department. Here, we merge the realms of possibility with the power of innovation, crafting solutions that redefine the boundaries of technology.",
     name: "Ashutosh Vishwakarma",
     title: "AI-ML Department Head",
     img: people03,
@@ -98,7 +98,7 @@ export const feedback = [
   {
     id: "feedback-4",
     content:
-      "Join the Competitive Programming journey with us—where challenges meet creativity, and coding becomes an art!",
+      "Join us in a quest where every line of code is a step closer to victory. Let's sharpen our skills, tackle complexities head-on, and emerge as champions in the exhilarating world of competitive programming.",
     name: "Satvik Jain",
     title: "Competitive Programming Department Head",
     img: people04,
@@ -173,17 +173,32 @@ export const clients = [
   {
     id: "client-1",
     logo: sponsor1,
+    url:'https://www.deeplearning.ai/'
   },
   {
     id: "client-2",
     logo: sponsor2,
+    url:'/'
   },
   {
     id: "client-3",
     logo: sponsor3,
+    url:'https://phicsit.in/'
   },
   {
     id: "client-4",
     logo: sponsor4,
+    url:'https://algozenith.com/'
   },
 ];
+
+export const contacts =[
+  {
+    name:'Purvanshi Nijhawan',
+    phone:'+917986387425'
+  },
+  {
+    name:'Ashutosh Vishwakarma',
+    phone:'+919596917316'
+  }
+]

@@ -176,3 +176,18 @@
 .font-big{
   font-size: 32px;
 }
+
+
+.button{
+  background: linear-gradient(#214d76,#5ce1e6);
+  width:200px;
+  height: 50px;
+  border-radius: 10px;
+  box-shadow: #6d6d6d;
+  text-shadow: #000000;
+}
+
+.button:hover{
+  background: linear-gradient(#c5c3c3,#5ce1e6);
+  color: #000000;
+}
