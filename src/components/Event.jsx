@@ -37,7 +37,7 @@ const Event = () => {
     e.preventDefault();
     toggleSubmit();
     if(!isSubmitted)
-    {  const response = await fetch('http://localhost:8080/api/submitID',{
+    {  const response = await fetch('https://api.codingclubiitjmu.in/api/submitID',{
         method:'POST',
         body: JSON.stringify(form),
         headers: {
