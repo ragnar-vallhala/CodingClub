@@ -108,7 +108,7 @@ const Event = () => {
                 </div>
                 <div className='flex flex-col text-black'>
                   <input name='team_name' className='ss:w-[400px] mt-4 mx-4 w-[200px] ' required type='text' onChange={formHandle} placeholder='Team Name..'></input>
-                  <input name='unique_id' className='mt-4 mx-4 ss:w-[400px] w-[200px]' required type='text' onChange={formHandle} placeholder="Team Leader's Email.."></input>
+                  <input name='unique_id' className='mt-4 mx-4 ss:w-[400px] w-[200px]' required type='email' onChange={formHandle} placeholder="Team Leader's Email.."></input>
                   <input name='hackerrank_id' className='mt-4 mx-4 ss:w-[400px] w-[200px]' required type='text' onChange={formHandle} placeholder='Hackerrank Username to be used..'></input>
                   <input name='kaggle_id' className='mt-4 mx-4 ss:w-[400px] w-[200px]' required type='text' onChange={formHandle} placeholder='Kaggle Username to be used..'></input>
                   <div  className='mt-4 mx-4'>
