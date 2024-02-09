@@ -9,6 +9,7 @@ const Event = () => {
   const [form, setForm] = useState({});
   const [isSubmitted, setSubmit] = useState(false);
   const [isSuccess, setSuccess] = useState(false);
+  const [state, setState] = useState(0);
 
   const togglSuccess=(e)=>{
     setSuccess(e)
@@ -53,6 +54,21 @@ const Event = () => {
     // handle form submission here
   }
   
+  const setStateZero=()=>{
+    setState(0);
+  }
+  const setStateOne=()=>{
+    setState(1);
+  }
+
+
+  const Questions = [
+    // {
+    //   title:'Hello',
+    //   link:'http://google.com'
+    // },
+   
+  ]
 
 
 
@@ -68,7 +84,13 @@ const Event = () => {
           <p>Fill The</p>
           <p className="text-gradient">Void()</p>
         </div>
-        {!isSubmitted&&(<div className='flex  flex-col text-white font-poppins mt-16'>
+
+        <div className='flex text-white justify-center font-poppins mt-16'>
+          <button className={state==0?`bg-gray-600 w-[200px] h-[50px]`:`w-[200px] h-[50px]`} onClick={setStateZero}>Submit ID</button>
+          <button className={state==1?`bg-gray-600 w-[200px] h-[50px]`:`w-[200px] h-[50px]`} onClick={setStateOne}>Questions</button>
+        </div>
+
+        {state==0&&!isSubmitted&&(<div className='flex  flex-col text-white font-poppins mt-16'>
             <p className='text-[32px]  text-center'>Submit ID</p>
             <form onSubmit={handleSubmit} className='flex flex-col'>
               <p className='text-[16px]  text-center'>The following information is needed for the evaluation in the contest. Kindly, submit accurate information:</p>
@@ -100,6 +122,37 @@ const Event = () => {
               
             </form>
         </div>)}
+        {
+          state==1&&(
+            <div className='flex  flex-col text-white font-poppins mt-16'>
+              <p className='text-[32px]  text-center'>Questions</p>
+              <p className='text-[16px]  text-center'>Links to the qustions will displayed below on the appropiate time.</p>
+              <p className='text-[12px] text-gray-400  text-center'>For any issue contact
+                <a href={`tel:${contacts[0].phone}`} className='ml-8 text-blue-400'>Coordinator</a>
+                <a href={`tel:${contacts[1].phone}`} className='ml-8 text-blue-400'>Head</a>
+              </p>
+              <ol className='text-[18px]  text-center mt-16'>
+                {
+                  Questions.map((question,index)=>{
+                    return (
+                      <li key={index}>
+                        <a target="_blank" href={question.link}>{index+1}{".\t"+question.title+"\t"}
+                          <p className='mb-6 text-[12px] text-gray-400'>{question.link}</p>
+                        </a>
+                      </li>
+                    )
+                  })
+                }
+              </ol>
+              {
+                Questions.length==0&&(
+                  <p className='text-center text-[24px] text-gray-400'>No question added yet.</p>
+                )
+              }
+
+            </div>
+          )
+        }
 
 
 
