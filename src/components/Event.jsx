@@ -102,13 +102,13 @@ const Event = () => {
               <div className='flex justify-center mt-4'>
                 <div>
                   <p className='mt-4 mx-4'>Team  Name: </p>
-                  <p className='mt-4 mx-4'>Unique ID:</p>
+                  <p className='mt-4 mx-4'>Email:</p>
                   <p className='mt-4 mx-4'>Hackerrank Username:</p>
                   <p className='mt-4 mx-4'>Kaggle Username:</p>
                 </div>
                 <div className='flex flex-col text-black'>
                   <input name='team_name' className='ss:w-[400px] mt-4 mx-4 w-[200px] ' required type='text' onChange={formHandle} placeholder='Team Name..'></input>
-                  <input name='unique_id' className='mt-4 mx-4 ss:w-[400px] w-[200px]' required type='text' onChange={formHandle} placeholder='Unique ID from registration platform..'></input>
+                  <input name='unique_id' className='mt-4 mx-4 ss:w-[400px] w-[200px]' required type='text' onChange={formHandle} placeholder="Team Leader's Email.."></input>
                   <input name='hackerrank_id' className='mt-4 mx-4 ss:w-[400px] w-[200px]' required type='text' onChange={formHandle} placeholder='Hackerrank Username to be used..'></input>
                   <input name='kaggle_id' className='mt-4 mx-4 ss:w-[400px] w-[200px]' required type='text' onChange={formHandle} placeholder='Kaggle Username to be used..'></input>
                   <div  className='mt-4 mx-4'>
