@@ -77,7 +77,7 @@ const Event = () => {
     "On Kaggle only 20 submissions are allowed per question. So submit wisely.",
     "First a CP question will be launched at 11AM IST followed by a ML question an hour later. The time for the submission of CP question will end after 4 hours of its release. ML questions will be open for submission till end of the contest.",
     "Questions will be released after every 4 hours. The time of release of ML questions will be at 1 hour offset to that of the CP questions.",
-    "Plagrism checks will be performed at random , so don’t copy code from anywhere else. It may lead to disqualification.",
+    "Plagiarism checks will be performed at random , so don’t copy code from anywhere else. It may lead to disqualification.",
     "You may be asked to submit the ML code used to train the model."
   ]
 
