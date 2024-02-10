@@ -65,11 +65,13 @@ const Event = () => {
   const Questions = [
     {
       title:'Ice breaker',
-      link:'https://www.hackerrank.com/ice-breaker-1707476474'
+      link:'https://www.hackerrank.com/ice-breaker-1707476474',
+      note:'Precision bug fixed.'
     },
     {
       title:"Yamuna's Odyssey: A Dream to Conquer IIT Jammu",
-      link:'https://www.kaggle.com/t/149289a54e31b80111740353bc04795d'
+      link:'https://www.kaggle.com/t/149289a54e31b80111740353bc04795d',
+      note:''
     },
    
   ]
@@ -152,7 +154,8 @@ const Event = () => {
                     return (
                       <li key={index}>
                         <a target="_blank" href={question.link}>{index+1}{".\t"+question.title+"\t"}
-                          <p className='mb-6 text-[12px] text-gray-400'>{question.link}</p>
+                          <p className='text-[12px] text-gray-400'>{question.link}</p>
+                          <p className='mb-6 text-[12px] text-red-500'>{question.note}</p>
                         </a>
                       </li>
                     )
