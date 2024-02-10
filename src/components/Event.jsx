@@ -67,6 +67,10 @@ const Event = () => {
       title:'Ice breaker',
       link:'https://www.hackerrank.com/ice-breaker-1707476474'
     },
+    {
+      title:"Yamuna's Odyssey: A Dream to Conquer IIT Jammu",
+      link:'https://www.kaggle.com/t/149289a54e31b80111740353bc04795d'
+    },
    
   ]
 
