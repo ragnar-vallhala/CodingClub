@@ -73,6 +73,11 @@ const Event = () => {
       link:'https://www.kaggle.com/t/149289a54e31b80111740353bc04795d',
       note:''
     },
+    {
+      title:"The Treasure Hunt",
+      link:'https://www.hackerrank.com/the-treasure-hunt',
+      note:''
+    },
    
   ]
 
