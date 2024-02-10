@@ -70,6 +70,17 @@ const Event = () => {
    
   ]
 
+  const important = [
+    "Please make sure to read and understand the problem statement before starting.",
+    "Use hackerrank username of the account used for submitting competetive programming questions as the team name in Kaggle.",
+    "Submit your id details in the Submit ID section befor the end of the event, failing to do so may lead disqualification.",
+    "On Kaggle only 20 submissions are allowed per question. So submit wisely.",
+    "First a CP question will be launched at 11AM IST followed by a ML question an hour later. The time for the submission of CP question will end after 4 hours of its release. ML questions will be open for submission till end of the contest.",
+    "Questions will be released after every 4 hours. The time of release of ML questions will be at 1 hour offset to that of the CP questions.",
+    "Plagrism checks will be performed at random , so don’t copy code from anywhere else. It may lead to disqualification.",
+    "You may be asked to submit the ML code used to train the model."
+  ]
+
 
 
   return (
@@ -150,6 +161,19 @@ const Event = () => {
                 )
               }
 
+              <ul className='mx-8 mt-8'>
+              <p className='text-center text-[24px] mb-4'>Important</p>
+              {
+                important.map((note,index)=>(
+                  <div>
+                      <hr/>
+                      <li key={index} className='mt-4'>{note}</li>
+                  </div>
+                    
+                ))
+              }
+              <hr/>
+              </ul>
             </div>
           )
         }
