@@ -66,7 +66,7 @@ const Event = () => {
     {
       title:'Ice breaker',
       link:'https://www.hackerrank.com/ice-breaker-1707476474',
-      note:'Precision bug fixed.',
+      note:'Precision bug fixed',
       status:'Submission Closed'
     },
     {
@@ -79,11 +79,17 @@ const Event = () => {
       title:"The Treasure Hunt",
       link:'https://www.hackerrank.com/the-treasure-hunt',
       note:'',
-      status:''
+      status:'Submission Closed'
     },
     {
       title:"Subhasis's SmartBox: Revolutionizing Cataloging",
       link:'https://www.kaggle.com/t/3f34ab563bef46c9a55ac7acea4f95a8',
+      note:'',
+      status:''
+    },
+    {
+      title:"The NP_HARD Problem",
+      link:'https://www.hackerrank.com/the-np-hard-problem',
       note:'',
       status:''
     },
