@@ -93,6 +93,12 @@ const Event = () => {
       note:'',
       status:''
     },
+    {
+      title:"Sumit's Numeric Quest: A Genius from Bihar",
+      link:'https://www.kaggle.com/t/a29bc05069ed4caf99028f96e7d4f8bb',
+      note:'',
+      status:''
+    },
    
   ]
 
