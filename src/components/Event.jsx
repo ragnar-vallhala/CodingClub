@@ -78,6 +78,11 @@ const Event = () => {
       link:'https://www.hackerrank.com/the-treasure-hunt',
       note:''
     },
+    {
+      title:"Subhasis's SmartBox: Revolutionizing Cataloging",
+      link:'https://www.kaggle.com/t/3f34ab563bef46c9a55ac7acea4f95a8',
+      note:''
+    },
    
   ]
 
