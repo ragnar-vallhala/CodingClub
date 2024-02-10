@@ -73,7 +73,7 @@ const Event = () => {
       title:"Yamuna's Odyssey: A Dream to Conquer IIT Jammu",
       link:'https://www.kaggle.com/t/149289a54e31b80111740353bc04795d',
       note:'',
-      status:''
+      status:'Submission Closed'
     },
     {
       title:"The Treasure Hunt",
@@ -85,19 +85,19 @@ const Event = () => {
       title:"Subhasis's SmartBox: Revolutionizing Cataloging",
       link:'https://www.kaggle.com/t/3f34ab563bef46c9a55ac7acea4f95a8',
       note:'',
-      status:''
+      status:'Submission Closed'
     },
     {
       title:"The NP_HARD Problem",
       link:'https://www.hackerrank.com/the-np-hard-problem',
       note:'',
-      status:''
+      status:'Submission Closed'
     },
     {
       title:"Sumit's Numeric Quest: A Genius from Bihar",
       link:'https://www.kaggle.com/t/a29bc05069ed4caf99028f96e7d4f8bb',
       note:'',
-      status:''
+      status:'Submission Closed'
     },
    
   ]
