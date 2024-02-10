@@ -66,22 +66,26 @@ const Event = () => {
     {
       title:'Ice breaker',
       link:'https://www.hackerrank.com/ice-breaker-1707476474',
-      note:'Precision bug fixed.'
+      note:'Precision bug fixed.',
+      status:'Submission Closed'
     },
     {
       title:"Yamuna's Odyssey: A Dream to Conquer IIT Jammu",
       link:'https://www.kaggle.com/t/149289a54e31b80111740353bc04795d',
-      note:''
+      note:'',
+      status:''
     },
     {
       title:"The Treasure Hunt",
       link:'https://www.hackerrank.com/the-treasure-hunt',
-      note:''
+      note:'',
+      status:''
     },
     {
       title:"Subhasis's SmartBox: Revolutionizing Cataloging",
       link:'https://www.kaggle.com/t/3f34ab563bef46c9a55ac7acea4f95a8',
-      note:''
+      note:'',
+      status:''
     },
    
   ]
@@ -165,7 +169,8 @@ const Event = () => {
                       <li key={index}>
                         <a target="_blank" href={question.link}>{index+1}{".\t"+question.title+"\t"}
                           <p className='text-[12px] text-gray-400'>{question.link}</p>
-                          <p className='mb-6 text-[12px] text-red-500'>{question.note}</p>
+                          <p className='text-[12px] text-red-500'>{question.note}</p>
+                          <p className='mb-6 text-[12px] text-green-500'>{question.status}</p>
                         </a>
                       </li>
                     )
