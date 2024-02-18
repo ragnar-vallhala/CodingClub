@@ -13,6 +13,7 @@ import Announcements from "./Announcements";
 import Home from "./Home";
 import Event from "./Event";
 
+
 export {
   Event,
   Home,
@@ -28,4 +29,5 @@ export {
   Testimonials,
   Hero,
   Announcements,
+
 };
