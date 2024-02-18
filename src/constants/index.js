@@ -26,6 +26,10 @@ export const navLinks = [
     title: "Events"
   },
   {
+    id: "editorial",
+    title: "Editorial"
+  },
+  {
     id: "prizes",
     title: "Prizes",
   },
@@ -39,7 +43,7 @@ export const navLinks = [
   },
   {
     id: "contact",
-    title: "Contact Us",
+    title: "Contact",
   },
   
   
